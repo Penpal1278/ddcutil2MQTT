@@ -1,6 +1,9 @@
 # ddcutil2MQTT
 Controlling monitor volume, brightness, and input with ddcutil via MQTT
 
+Dependencies:  
+paho-mqtt
+
 MQTT Command Topics:  
 Volume: ddcutilMQTT/cmnd/vol (0-100, up, down)  
 Brightness: ddcutilMQTT/cmnd/bri (0-100, up, down)  
